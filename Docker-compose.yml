@@ -1,0 +1,14 @@
+version: "3"
+services:
+  serve:
+    command: jekyll serve
+    image: jekyll/jekyll:latest
+    volumes:
+      - ./docs:/srv/jekyll
+    ports:
+      - 4000:4000
+  build:
+    command: jekyll build
+    image: jekyll/jekyll:latest
+    volumes:
+      - ./docs:/srv/jekyll
