@@ -4,11 +4,11 @@ services:
     command: jekyll serve
     image: jekyll/jekyll:latest
     volumes:
-      - ./docs:/srv/jekyll
+      - .:/srv/jekyll
     ports:
       - 4000:4000
   build:
     command: jekyll build
     image: jekyll/jekyll:latest
     volumes:
-      - ./docs:/srv/jekyll
+      - .:/srv/jekyll
