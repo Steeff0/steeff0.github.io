@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My playgound and notes repository",
   "scripts": {
-    "build": "docker-compose up --force-recreate build",
+    "build-npm": "npm install",
+    "build-jekyl": "docker-compose up --force-recreate build",
     "serve": "docker-compose up --force-recreate serve"
   },
   "repository": {
