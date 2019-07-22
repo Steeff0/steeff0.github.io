@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "My playgound and notes repository",
   "scripts": {
-    "build-npm": "npm install",
-    "build-jekyl": "docker-compose up --force-recreate build",
-    "serve": "docker-compose up --force-recreate serve"
+    "build": "npm install && bash update_npm.sh",
+    "jekyll-build": "docker-compose up --force-recreate build",
+    "jekyll-serve": "docker-compose up --force-recreate serve"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "@fortawesome/fontawesome-free": "^5.9.0"
   }
 }
