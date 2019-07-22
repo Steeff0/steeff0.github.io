@@ -1,0 +1,24 @@
+{
+  "name": "steeff0.github.io",
+  "version": "1.0.0",
+  "description": "My playgound and notes repository",
+  "scripts": {
+    "build": "docker-compose up --force-recreate build",
+    "serve": "docker-compose up --force-recreate serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Steeff0/steeff0.github.io.git"
+  },
+  "author": "Steven Gerritsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Steeff0/steeff0.github.io/issues"
+  },
+  "homepage": "https://steeff0.github.io",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
