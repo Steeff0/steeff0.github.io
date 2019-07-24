@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="assets/css/main.css" media="screen">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                <p class="lead">{{ site.description | default: site.github.project_tagline }}</p>
+            </div>
+        </div>
+    </div>
+
+    {{ content }}
+
+</div>
+
+
+<script src="assets/javascript/bootstrap/jquery.min.js"></script>
+<script src="assets/javascript/bootstrap/popper.min.js"></script>
+<script src="assets/javascript/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
