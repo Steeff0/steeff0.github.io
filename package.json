@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My playgound and notes repository",
   "scripts": {
-    "build": "npm install && bash update_npm.sh",
+    "build": "npm install && bash update_npm.sh && rm -rf node_modules",
     "jekyll-build": "docker-compose up --force-recreate build",
     "jekyll-serve": "docker-compose up --force-recreate serve"
   },

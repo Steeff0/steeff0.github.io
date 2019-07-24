@@ -5,16 +5,37 @@
 
 // Color system
 
-$white:    #fff !default;     //$topbarcolor; $menucolor
-$gray-100: #fafafa !default;  //$overview-card-bg
-$gray-200: #c8c8c8 !default;  //$carousel-card-bg; $overview-card-border; $grey-slider-dots; $titlebar-bg
-$gray-300: #afafaf !default;  //
-$gray-400: #969696 !default;  //$carousel-bg; $grey-read-more-button-dots
-$gray-500: #7d7d7d !default;  //$grey-top-carousel-banner; $menu-bottom;
-$gray-600: #646464 !default;  //$grey-bottom-carousel-banner; $menu-top;
-$gray-700: #4b4b4b !default;  //$titlebar-color
-$gray-800: #323232 !default;  //$topbar
-$gray-900: #191919 !default;  //
-$black:    #000 !default;     //$text-color
-$orange:   #d04f01 !default;  //$banners; $buttons; $orange-shadow: darken($orange, 5%)
-$blue:     #0f437d !default;  //$breadcrumbcolor
+$white: #fff !default; //$topbarcolor; $menucolor
+$gray-100: #fafafa !default; //$overview-card-bg
+$gray-200: #c8c8c8 !default; //$carousel-card-bg; $overview-card-border; $grey-slider-dots; $titlebar-bg
+$gray-300: #afafaf !default; //
+$gray-400: #969696 !default; //$carousel-bg; $grey-read-more-button-dots
+$gray-500: #7d7d7d !default; //$grey-top-carousel-banner; $menu-bottom;
+$gray-600: #646464 !default; //$grey-bottom-carousel-banner; $menu-top;
+$gray-700: #4b4b4b !default; //$titlebar-color
+$gray-800: #323232 !default; //$topbar
+$gray-900: #191919 !default; //$text-color
+$black: #000 !default; //
+$orange: #d04f01 !default; //$banners; $buttons; $orange-shadow: darken($orange, 5%)
+$blue: #0f437d !default; //$breadcrumbcolor
+
+$primary:       $orange !default;
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-gradients:                            true !default;
+$enable-responsive-font-sizes:                true !default;
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                              $blue !default;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
