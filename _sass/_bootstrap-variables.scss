@@ -58,6 +58,7 @@ $box-shadow-sm:               0 .125rem .25rem rgba($white, .075) !default;
 $box-shadow:                  0 .5rem 1rem rgba($white, .15) !default;
 $box-shadow-lg:               0 1rem 3rem rgba($white, .175) !default;
 
+
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -89,3 +90,7 @@ $table-dark-bg:               $gray-200 !default;
 $table-dark-accent-bg:        rgba($black, .05) !default;
 $table-dark-hover-bg:         rgba($black, .075) !default;
 $table-dark-color:            $black !default;
+
+$table-bg-level:              9 !default;
+$table-border-level:          6 !default;
+
