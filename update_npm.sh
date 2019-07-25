@@ -7,7 +7,7 @@ touch _sass/bootstrap/__DO_NOT_MODIFY
 
 rm -rf assets/javascript/bootstrap
 mkdir -p assets/javascript/bootstrap
-cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.* assets/javascript/bootstrap/
+cp node_modules/bootstrap/dist/js/bootstrap*.min.* assets/javascript/bootstrap/
 cp node_modules/jquery/dist/jquery*.min.* assets/javascript/bootstrap/
 cp node_modules/popper.js/dist/popper*.min.* assets/javascript/bootstrap/
 touch assets/javascript/bootstrap/__DO_NOT_MODIFY
