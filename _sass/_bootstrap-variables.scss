@@ -93,3 +93,28 @@ $table-dark-hover-bg:         rgba($black, .075) !default;
 $table-bg-level:              5 !default;
 $table-border-level:          2 !default;
 
+
+// Cards
+
+$card-border-color:                 rgba($white, .125) !default;
+$card-cap-bg:                       rgba($white, .03) !default;
+$card-bg:                           $black !default;
+
+
+// Tooltips
+
+$tooltip-color:                     $black !default;
+$tooltip-bg:                        $white !default;
+
+
+// Popovers
+
+$popover-bg:                        $black !default;
+$popover-border-color:              rgba($white, .2) !default;
+
+
+// Progress bars
+
+$progress-bg:                       $gray-800 !default;
+$progress-box-shadow:               inset 0 .1rem .1rem rgba($white, .1) !default;
+$progress-bar-color:                $black !default;
