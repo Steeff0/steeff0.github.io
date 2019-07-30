@@ -18,13 +18,13 @@ layout: bootstrap
 
   {%- if page.description -%}
     {%- unless page.description.blank? -%}
-      <div class="post-intro" itemprop="articleBody">
+      <div class="post-intro">
         {{ page.description }}
       </div>
     {% endunless %}
   {% endif %}
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content }}
   </div>
 
