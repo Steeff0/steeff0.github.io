@@ -19,7 +19,7 @@ layout: bootstrap
   {%- if page.description -%}
     {%- unless page.description.blank? -%}
       <div class="post-intro" itemprop="articleBody">
-        {{ content }}
+        {{ page.description }}
       </div>
     {% endunless %}
   {% endif %}
