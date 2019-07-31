@@ -1,0 +1,9 @@
+- title: Home
+  url: /
+  class: home
+- title: Archive
+  url: /Archive.html
+- title: Notes
+  url: /notes.html
+- title: About
+  url: /about.html

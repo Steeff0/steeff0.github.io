@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand site-logo" href="/">Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mainmenu" aria-controls="navbar-mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-mainmenu">
+        <ul class="navbar-nav mr-auto">
+            {% assign links = site.data.navigation %}
+            {% for link in links %}
+                {%- include nav-item.html link=link -%}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
