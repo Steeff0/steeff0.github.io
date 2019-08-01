@@ -2,10 +2,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | default: site.github.repository_name }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet" type="text/css" />
+  <link href="//fonts.googleapis.com/css?family=Droid+Sans&display=swap" rel="stylesheet" type="text/css" />
+
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-  {%- include google-analytics.html -%}
+
+  {%- if site.google_analytics -%}
+    {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
