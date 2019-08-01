@@ -6,8 +6,8 @@
     {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
 {% endif %}
 {% if link.class != blank %}
-    {% assign linkClass += ' ' +  %}
+    {% assign linkClass = " " + link.class  %}
 {% endif %}
-<li class="nav-item {{ activeClass }}{{ linkClass }}">
+<li class="nav-item{{ activeClass }}{{ linkClass }}">
     <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{ activeContent }}</a>
 </li>

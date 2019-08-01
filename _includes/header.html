@@ -30,9 +30,20 @@
                     <div class="collapse navbar-collapse" id="navbar-mainmenu">
                         <ul class="navbar-nav mr-auto">
                             {% assign links = site.data.navigation %}
-                            {% for link in links %}
-                                {%- include nav-item.html link=link -%}
-                            {% endfor %}
+                            {% assign activeClass = '' %}
+                            {% assign activeContent = '' %}
+                            {% assign linkClass = '' %}
+                            {% if page.url contains link.url %}
+                                {% assign activeClass = ' active' %}
+                                {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
+                            {% endif %}
+                            {% if link.class != blank %}
+                                {% assign linkClass = link.class  %}
+                            {% endif %}
+                            <li class="nav-item {{ activeClass }}{{ linkClass }}">
+                                <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{ activeContent }}</a>
+                            </li>
+
                         </ul>
                     </div>
                 </nav>
