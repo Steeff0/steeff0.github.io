@@ -1,17 +1,19 @@
 <header class="site-header">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="mr-auto">
-                    <a href="{{ site.github.repository_url }}">View On GitHub</a></a>
-                </nav>
-            </div>
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+                <div class="container">
+                    <a class="float-right" href="{{ site.github.repository_url }}">View On GitHub</a>
+                </div>
+            </nav>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
                     <a class="navbar-brand site-title" href="{{ '/' | relative_url }}">
                         {{ site.title | default: site.github.repository_name | escape }}
                     </a>
@@ -29,20 +31,21 @@
                                 {% assign activeContent = '' %}
                                 {% assign linkClass = '' %}
                                 {% if page.url contains link.url %}
-                                {% assign activeClass = ' active' %}
-                                {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
+                                    {% assign activeClass = ' active' %}
+                                    {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
                                 {% endif %}
                                 {% if link.class != blank %}
-                                {% assign linkClass = link.class  %}
+                                    {% assign linkClass = link.class %}
                                 {% endif %}
                                 <li class="nav-item {{ activeClass }}{{ linkClass }}">
-                                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{ activeContent }}</a>
+                                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{
+                                        activeContent }}</a>
                                 </li>
                             {% endfor %}
                         </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
     </div>
 </header>
