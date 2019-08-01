@@ -4,50 +4,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
-                        <a class="float-right" href="{{ site.github.repository_url }}">View On GitHub</a>
-                    </nav>
+                    <a class="float-lg-right" href="{{ site.github.repository_url }}">View On GitHub</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <a class="navbar-brand site-title" href="{{ '/' | relative_url }}">
-                        {{ site.title | default: site.github.repository_name | escape }}
-                    </a>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a class="navbar-brand site-title" href="{{ '/' | relative_url }}">
+                            {{ site.title | default: site.github.repository_name | escape }}
+                        </a>
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mainmenu"
-                            aria-controls="navbar-mainmenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mainmenu"
+                                aria-controls="navbar-mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbar-mainmenu">
-                        <ul class="navbar-nav mr-auto">
-                            {% assign links = site.data.navigation %}
-                            {% for link in links %}
-                            {% assign activeClass = '' %}
-                            {% assign activeContent = '' %}
-                            {% assign linkClass = '' %}
-                            {% if page.url contains link.url %}
-                            {% assign activeClass = ' active' %}
-                            {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
-                            {% endif %}
-                            {% if link.class != blank %}
-                            {% assign linkClass = link.class %}
-                            {% endif %}
-                            <li class="nav-item {{ activeClass }}{{ linkClass }}">
-                                <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{
-                                    activeContent }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+                        <div class="collapse navbar-collapse" id="navbar-mainmenu">
+                            <ul class="navbar-nav mr-auto">
+                                {% assign links = site.data.navigation %}
+                                {% for link in links %}
+                                {% assign activeClass = '' %}
+                                {% assign activeContent = '' %}
+                                {% assign linkClass = '' %}
+                                {% if page.url contains link.url %}
+                                {% assign activeClass = ' active' %}
+                                {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
+                                {% endif %}
+                                {% if link.class != blank %}
+                                {% assign linkClass = link.class %}
+                                {% endif %}
+                                <li class="nav-item {{ activeClass }}{{ linkClass }}">
+                                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{
+                                        activeContent }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 </header>
