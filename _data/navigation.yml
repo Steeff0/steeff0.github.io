@@ -2,8 +2,8 @@
   url: /
   class: home
 - title: Archive
-  url: /Archive.html
+  url: /archive/
 - title: Notes
-  url: /notes.html
+  url: /notes/
 - title: About
-  url: /about.html
+  url: /about/
