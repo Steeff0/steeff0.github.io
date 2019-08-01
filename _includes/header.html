@@ -1,14 +1,16 @@
 <header class="site-header">
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+    <div style="background-color: black;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <a class="float-right" href="{{ site.github.repository_url }}">View On GitHub</a>
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+                        <a class="float-right" href="{{ site.github.repository_url }}">View On GitHub</a>
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -27,20 +29,20 @@
                         <ul class="navbar-nav mr-auto">
                             {% assign links = site.data.navigation %}
                             {% for link in links %}
-                                {% assign activeClass = '' %}
-                                {% assign activeContent = '' %}
-                                {% assign linkClass = '' %}
-                                {% if page.url contains link.url %}
-                                    {% assign activeClass = ' active' %}
-                                    {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
-                                {% endif %}
-                                {% if link.class != blank %}
-                                    {% assign linkClass = link.class %}
-                                {% endif %}
-                                <li class="nav-item {{ activeClass }}{{ linkClass }}">
-                                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{
-                                        activeContent }}</a>
-                                </li>
+                            {% assign activeClass = '' %}
+                            {% assign activeContent = '' %}
+                            {% assign linkClass = '' %}
+                            {% if page.url contains link.url %}
+                            {% assign activeClass = ' active' %}
+                            {% assign activeContent = ' <span class="sr-only">(current)</span>' %}
+                            {% endif %}
+                            {% if link.class != blank %}
+                            {% assign linkClass = link.class %}
+                            {% endif %}
+                            <li class="nav-item {{ activeClass }}{{ linkClass }}">
+                                <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}{{
+                                    activeContent }}</a>
+                            </li>
                             {% endfor %}
                         </ul>
                     </div>
