@@ -1,6 +1,5 @@
 ---
 title:  "Starting my website with Jekyll!"
-date:   2019-08-01 00:00:00 -0200
 categories: development web
 promoted: true
 ---
