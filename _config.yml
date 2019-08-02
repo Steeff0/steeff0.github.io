@@ -40,7 +40,7 @@ defaults:
       type: "pages"
     values:
       layout: "page-old"
-      permalink: "/page/:title"
+      permalink: "/pages/:title"
   -
     scope:
       path: ""
@@ -57,7 +57,7 @@ defaults:
       type: "posts"
     values:
       layout: "post-old"
-      permalink: "/article/:year/:slug"
+      permalink: "/articles/:year/:slug"
       discription: ""
       image: ""
       promoted: false
