@@ -15,14 +15,14 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
-# exclude:
-#   - node_modules
-#   - Docker-compose.yml
-#   - .gitignore
-#   - .dockerignore
-#   - update_npm.sh
-#   - package.json
-#   - package-lock.json
+ exclude:
+   - node_modules
+   - Docker-compose.yml
+   - .gitignore
+   - .dockerignore
+   - update_npm.sh
+   - package.json
+   - package-lock.json
 
 # collections are declared here. this renders the content in _notes and processes it
 collections:
