@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  steeff0
-timezone: Europe/Amsterdam
+#timezone: Europe/Amsterdam
 
 # Build settings
 markdown: kramdown
@@ -15,53 +15,49 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
- exclude:
-   - node_modules
-   - Docker-compose.yml
-   - .gitignore
-   - .dockerignore
-   - update_npm.sh
-   - package.json
-   - package-lock.json
-
-
+# exclude:
+#   - node_modules
+#   - Docker-compose.yml
+#   - .gitignore
+#   - .dockerignore
+#   - update_npm.sh
+#   - package.json
+#   - package-lock.json
 
 # collections are declared here. this renders the content in _notes and processes it
-collections:
-  notes:
-    output: true
+#collections:
+#  notes:
+#    output: true
 
 # My custom variables
-author: "Steven Gerritsen"
+author: Steven Gerritsen
 date_format: "%d/%m/%Y"
 
-defaults:
-  -
-    scope:
-      path: "pages"
-      type: "pages"
-    values:
-      layout: "page-old"
-      permalink: "/page/:slug:output_ext"
-  -
-    scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "post-old"
-      permalink: "/notes/:slug:output_ext"
-      date: ""
-      discription: ""
-      image: ""
-      promoted: false
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post-old"
-      permalink: "/article/:year/:slug:output_ext"
-      date: ""
-      discription: ""
-      image: ""
-      promoted: false
+#defaults:
+#  -
+#    scope:
+#      path: "pages"
+#      type: "pages"
+#    values:
+#      layout: "page-old"
+#      permalink: "/page/:slug:output_ext"
+#  -
+#    scope:
+#      path: ""
+#      type: "notes"
+#    values:
+#      layout: "post-old"
+#      permalink: "/notes/:slug:output_ext"
+#      discription: ""
+#      image: ""
+#      promoted: false
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post-old"
+#      permalink: "/article/:year/:slug:output_ext"
+#      discription: ""
+#      image: ""
+#      promoted: false
