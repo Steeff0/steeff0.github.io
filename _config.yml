@@ -40,14 +40,14 @@ defaults:
       type: "pages"
     values:
       layout: "page-old"
-      permalink: "/page/:slug:output_ext"
+      permalink: "/page/:title"
   -
     scope:
       path: ""
       type: "notes"
     values:
       layout: "post-old"
-      permalink: "/notes/:slug:output_ext"
+      permalink: "/notes/:slug"
       discription: ""
       image: ""
       promoted: false
@@ -57,7 +57,7 @@ defaults:
       type: "posts"
     values:
       layout: "post-old"
-      permalink: "/article/:year/:slug:output_ext"
+      permalink: "/article/:year/:slug"
       discription: ""
       image: ""
       promoted: false
