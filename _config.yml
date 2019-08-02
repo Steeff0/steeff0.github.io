@@ -15,7 +15,7 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
- exclude:
+exclude:
   - node_modules
   - Docker-compose.yml
   - .gitignore
