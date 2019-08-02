@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  steeff0
-#timezone: Europe/Amsterdam
+timezone: Europe/Amsterdam
 
 # Build settings
 markdown: kramdown
@@ -41,23 +41,23 @@ defaults:
     values:
       layout: "page-old"
       permalink: "/page/:slug:output_ext"
-#  -
-#    scope:
-#      path: ""
-#      type: "notes"
-#    values:
-#      layout: "post-old"
-#      permalink: "/notes/:slug:output_ext"
-#      discription: ""
-#      image: ""
-#      promoted: false
-#  -
-#    scope:
-#      path: ""
-#      type: "posts"
-#    values:
-#      layout: "post-old"
-#      permalink: "/article/:year/:slug:output_ext"
-#      discription: ""
-#      image: ""
-#      promoted: false
+  -
+    scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "post-old"
+      permalink: "/notes/:slug:output_ext"
+      discription: ""
+      image: ""
+      promoted: false
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-old"
+      permalink: "/article/:year/:slug:output_ext"
+      discription: ""
+      image: ""
+      promoted: false
