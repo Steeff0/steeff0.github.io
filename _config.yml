@@ -33,14 +33,14 @@ plugins:
 author: Steven Gerritsen
 date_format: "%d/%m/%Y"
 
-#defaults:
-#  -
-#    scope:
-#      path: "pages"
-#      type: "pages"
-#    values:
-#      layout: "page-old"
-#      permalink: "/page/:slug:output_ext"
+defaults:
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page-old"
+      permalink: "/page/:slug:output_ext"
 #  -
 #    scope:
 #      path: ""
