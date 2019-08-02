@@ -28,6 +28,10 @@ exclude:
 collections:
   notes:
     output: true
+    permalink: "/notes/:slug/"
+  posts:
+    output: true
+    permalink: "/articles/:year/:slug/"
 
 # My custom variables
 author: Steven Gerritsen
@@ -47,7 +51,6 @@ defaults:
       type: "notes"
     values:
       layout: "post-old"
-      permalink: "/notes/:slug/"
       discription: ""
       image: ""
       promoted: false
@@ -57,7 +60,6 @@ defaults:
       type: "posts"
     values:
       layout: "post-old"
-      permalink: "/articles/:year/:slug/"
       discription: ""
       image: ""
       promoted: false
