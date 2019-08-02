@@ -1,6 +1,5 @@
 ---
 title:  "Scrum Retro Ideas"
-date:   2019-08-02 00:00:00 -0200
 categories: scrum
 promoted: true
 ---
