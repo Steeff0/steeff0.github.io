@@ -25,9 +25,9 @@ plugins:
 #   - package-lock.json
 
 # collections are declared here. this renders the content in _notes and processes it
-#collections:
-#  notes:
-#    output: true
+collections:
+  notes:
+    output: true
 
 # My custom variables
 author: Steven Gerritsen
