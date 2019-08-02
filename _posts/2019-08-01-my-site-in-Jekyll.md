@@ -1,11 +1,8 @@
 ---
-layout: post-old
 title:  "Starting my website with Jekyll!"
-description: ""
-image: ""
-date:   2019-08-01 08:00:00 -0200
-categories: promoted development web
-permalink: /articles/20190801-starting-my-site-in-Jekyll.html
+date:   2019-08-01 00:00:00 -0200
+categories: development web
+promoted: true
 ---
 For a long time I wanted to make my own website. I tried a lot of content management systems, but all of them I thought more work than it was worth. So with each of those applications I quit before I finished a single decent webpage. A few months ago I encountered [Jekyll][jekyll] for the first time, but didn't pay it much attention. It looked nice and you could publish webpages using markdown files.
 

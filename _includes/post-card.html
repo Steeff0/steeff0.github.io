@@ -3,7 +3,7 @@
         <h3 class="h5 card-title">{{ card.title }}</h3>
     </div>
     <div class="order-1 card-body">
-        <date>{{ card.date }}</date>
+        <date>{{ card.date | date: site.date_format }}</date>
     </div>
     {% if card.image != blank %}
         <img class="order-2" src="{{ card.image }}" alt="" aria-hidden="true">

@@ -1,7 +1,6 @@
 ---
 layout: bootstrap
 title:  "Markdown Test"
-permalink: /markdown-test/
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
