@@ -22,22 +22,20 @@
                                 {%- include nav-item.html link=link -%}
                                 {% endfor %}
                             </ul>
-                            <div class="fa-4x">
-                                <a href="{{ site.github.repository_url }}">
-                                    <span class="fa-layers fa-fw">
-                                        <i class="fas fa-circle text-white" data-fa-transform="shrink-1"></i>
-                                        <i class="fab fa-github text-primary"></i>
-                                    </span>
-                                    <span class="sr-only">View On GitHub</span>
-                                </a>
-                                <a href="{{ 'feed.xml' | relative_url }}">
-                                    <span class="fa-layers fa-fw">
-                                        <i class="fas fa-circle text-primary"></i>
-                                        <i class="fas fa-rss fa-inverse text-white"></i>
-                                    </span>
-                                    <span class="sr-only">Subscribe</span>
-                                </a>
-                            </div>
+                            <a href="{{ site.github.repository_url }}">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-white" data-fa-transform="shrink-1"></i>
+                                    <i class="fab fa-github fa-stack-2x text-primary"></i>
+                                </span>
+                                <span class="sr-only">View On GitHub</span>
+                            </a>
+                            <a href="{{ 'feed.xml' | relative_url }}">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fas fa-rss fa-stack-1x fa-inverse text-white"></i>
+                                </span>
+                                <span class="sr-only">Subscribe</span>
+                            </a>
                         </div>
                     </nav>
                 </div>
