@@ -48,6 +48,7 @@ $body-color:                $gray-100 !default;
 // Style anchor elements.
 
 $link-color:                              $yellow !default;
+$link-hover-color:                        lighten($link-color, 15%) !default;
 
 
 // Components
@@ -91,6 +92,7 @@ $table-dark-color:            $white !default;
 $table-dark-bg:               $gray-200 !default;
 $table-dark-accent-bg:        rgba($black, .05) !default;
 $table-dark-hover-bg:         rgba($black, .075) !default;
+$table-dark-border-color:     darken($table-dark-bg, 7.5%) !default;
 
 $table-bg-level:              5 !default;
 $table-border-level:          2 !default;
