@@ -8,6 +8,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  steeff0
 timezone: Europe/Amsterdam
 
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-midnight

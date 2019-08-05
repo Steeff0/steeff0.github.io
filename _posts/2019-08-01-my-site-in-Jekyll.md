@@ -2,6 +2,7 @@
 title:  "Starting my website with Jekyll!"
 categories: development web
 promoted: true
+excerpt: Read about some of the struggles I faced setting up my Jekyll site and how I overcame them. 
 ---
 For a long time I wanted to make my own website. I tried a lot of content management systems, but all of them I thought more work than it was worth. So with each of those applications I quit before I finished a single decent webpage. A few months ago I encountered [Jekyll][jekyll] for the first time, but didn't pay it much attention. It looked nice and you could publish webpages using markdown files.
 

@@ -1,5 +1,5 @@
 ---
-layout: bootstrap
+layout: page
 title:  "Markdown Test"
 ---
 

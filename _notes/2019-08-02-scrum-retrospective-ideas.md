@@ -2,6 +2,7 @@
 title:  "Scrum Retro Ideas"
 categories: scrum
 promoted: true
+excerpt: I wanted to keep record of all the Retrospective activities I collected over time.
 ---
 
 On this page I collected some Scrum Retrospective ideas that I can use.

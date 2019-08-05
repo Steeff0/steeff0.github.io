@@ -1,17 +1,21 @@
-<div class="card mb-3">
-    <div class="order-3 card-body">
-        <h3 class="h5 card-title">{{ post.title }}</h3>
-    </div>
-    <div class="order-1 card-body">
-        <date>{{ post.date | date: site.date_format }}</date>
-    </div>
+<div class="card border-primary mb-3">
+    {% if post.title != blank %}
+        <div class="order-3 card-body">
+            <h3 class="h5 card-title">{{ post.title }}</h3>
+        </div>
+    {% endif %}
+    {% if post.date != blank %}
+        <div class="order-1 card-body">
+            <date>{{ post.date | date: site.date_format }}</date>
+        </div>
+    {% endif %}
     {% if card.image != blank %}
         <img class="order-2" src="{{ post.image }}" alt="" aria-hidden="true">
     {% endif %}
     <div class="order-12 card-body">
-        {% if post.intro != blank %}
+        {% if post.excerpt != blank %}
             <p class="card-text">{{ post.excerpt }}</p>
         {% endif %}
-        <a href="#" class="btn btn-primary">Read more</a>
+        <a href="{{ post.url }}" class="card-link">Read more</a>
     </div>
 </div>

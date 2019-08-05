@@ -1,0 +1,21 @@
+---
+layout: page
+title:  "Archive"
+permalink: /archive/
+---
+<div class="feed-subscribe">
+  <a href="{{ 'feed.xml' | relative_url }}">
+    <span>Subscribe</span>
+  </a>
+</div>
+
+{% assign archive = site.posts | concat: site.notes %}
+{% assign archive = archive | sort: 'date' | reverse %}
+
+{%- if archive.size > 0 -%}
+  <div class="row">
+    {%- for post in archive -%}
+      {%- include post-card post=post -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}
