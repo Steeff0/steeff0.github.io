@@ -15,7 +15,7 @@ permalink: /archive/
 {%- if archive.size > 0 -%}
   <div class="row">
     {%- for post in archive -%}
-      {%- include post-card post=post -%}
+      {%- include post-card.html post=post -%}
     {%- endfor -%}
   </div>
 {%- endif -%}
