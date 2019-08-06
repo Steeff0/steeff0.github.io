@@ -1,6 +1,8 @@
 .navbar {
   .navbar-brand {
+    @include media-breakpoint-up(lg) {
       border-right: 2px solid $white !important;
       padding-right: $spacer;
+    }
   }
 }
