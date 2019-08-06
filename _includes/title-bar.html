@@ -1,8 +1,8 @@
-<header class="bg-light text-dark pb-1 pt-3">
+<header class="bg-light pb-1 pt-3 mb-5">
     <div class="container d-flex align-items-end">
-        <h1 class="mb-0">{{ page.title | escape }}</h1>
+        <h1 class="mb-0 text-dark">{{ page.title | escape }}</h1>
         {%- if page.date or page.author -%}
-        <p class="post-meta">
+        <p class="post-meta text-dark">
             {%- if page.date -%}
             <time datetime="{{ page.date | date_to_xmlschema }}">
                 {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
