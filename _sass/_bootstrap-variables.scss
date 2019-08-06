@@ -147,6 +147,11 @@ $nav-divider-color:                 $gray-200 !default;
 
 // Navbar
 
+$navbar-brand-font-size:            2rem !default;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$navbar-brand-height:               $navbar-brand-font-size * $line-height-base !default;
+$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) / 2 !default;
+
 $navbar-dark-color:                 rgba($white, .7) !default;
 $navbar-dark-hover-color:           rgba($white, .9) !default;
 $navbar-dark-active-color:          $white !default;
