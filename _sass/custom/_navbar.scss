@@ -1,6 +1,6 @@
 .navbar {
   .navbar-brand {
-    @media (min-width: map_get($grid-breakpoints, "lg")) {
+    @include media-breakpoint-up(lg) {
       border-right: 2px solid $white !important;
       padding-right: $spacer;
     }
