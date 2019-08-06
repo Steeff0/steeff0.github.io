@@ -1,5 +1,8 @@
 .navbar {
   .navbar-brand {
-    border-right-width: 2px !important;
+    @media (min-width: map_get($grid-breakpoints, "lg")) {
+      border-right: 2px solid $white !important;
+      padding-right: $spacer;
+    }
   }
 }
