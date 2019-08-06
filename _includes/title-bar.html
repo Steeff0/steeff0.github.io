@@ -1,6 +1,6 @@
 <header class="bg-light text-dark pb-1 pt-3">
-    <div class="container d-flex">
-        <h1>{{ page.title | escape }}</h1>
+    <div class="container d-flex align-items-end">
+        <h1 class="mb-0">{{ page.title | escape }}</h1>
         {%- if page.date or page.author -%}
         <p class="post-meta">
             {%- if page.date -%}
@@ -14,7 +14,7 @@
             {%- endif -%}
         </p>
         {%- endif -%}
-        <div class="ml-auto">
+        <div class="ml-auto mb-1">
             <a href="{{ site.github.repository_url }}">
                                     <span class="fa-stack fa-1x github">
                                         <i class="fas fa-circle fa-stack-2x text-white" data-fa-transform="shrink-1"></i>
