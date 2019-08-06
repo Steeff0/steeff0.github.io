@@ -40,7 +40,7 @@ $enable-responsive-font-sizes:                true !default;
 // Settings for the `<body>` element.
 
 $body-bg:                   #2a2a29 !default;
-$body-color:                $gray-100 !default;
+$body-color:                #f0e7d5 !default;
 
 
 // Links
@@ -69,6 +69,8 @@ $box-shadow-lg:               0 1rem 3rem rgba($white, .175) !default;
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "Droid Sans", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       "Source Code Pro", monospace !default;
+
+$headings-color:              #e8e8e8 !default;
 
 $text-muted:                  $gray-400 !default;
 
