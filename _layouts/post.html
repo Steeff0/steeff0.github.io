@@ -5,15 +5,7 @@ layout: bootstrap
 
   {%- include title-bar.html page=page -%}
 
-  {%- if page.description -%}
-    {%- unless page.description.blank? -%}
-      <div class="post-intro">
-        {{ page.description }}
-      </div>
-    {% endunless %}
-  {% endif %}
-
-  <div class="post-content">
+  <div class="container post-content">
     {{ content }}
   </div>
 </article>

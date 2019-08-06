@@ -1,16 +1,18 @@
 <header>
-    <h1>{{ page.title | escape }}</h1>
-    {%- if page.date or page.author -%}
+    <div class="container">
+        <h1>{{ page.title | escape }}</h1>
+        {%- if page.date or page.author -%}
         <p class="post-meta">
             {%- if page.date -%}
-                <time datetime="{{ page.date | date_to_xmlschema }}">
-                    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-                    {{ page.date | date: date_format }}
-                </time>
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+            </time>
             {%- endif -%}
             {%- if page.author -%}
-                <span  itemprop="author">{{ page.author | escape }}</span>
+            <span itemprop="author">{{ page.author | escape }}</span>
             {%- endif -%}
         </p>
-    {%- endif -%}}
+        {%- endif -%}}
+    </div>
 </header>>
