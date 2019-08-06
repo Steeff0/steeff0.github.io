@@ -2,4 +2,18 @@
   position: relative;
   z-index: 2;
   box-shadow: 0 0.5rem 0.6em rgba(0,0,0,0.15);
+
+  .container{
+    @include media-breakpoint-up(lg) {
+      max-width: calc(650px + 260px);
+      left: calc(260px / 2 * -1);
+      position: relative
+    }
+
+    .navbar-brand {
+      @include media-breakpoint-up(lg) {
+        max-width: 260px;
+      }
+    }
+  }
 }
