@@ -4,15 +4,17 @@
   box-shadow: 0 0.5rem 0.6em rgba(0,0,0,0.15);
 
   .container{
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
       max-width: calc(650px + 260px);
       left: calc(260px / 2 * -1);
       position: relative
     }
 
     .navbar-brand {
-      @include media-breakpoint-up(lg) {
+      @include media-breakpoint-up(xl) {
         max-width: 260px;
+        border-right: 2px solid $white !important;
+        padding-right: $spacer;
       }
     }
   }
