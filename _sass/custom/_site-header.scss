@@ -15,7 +15,7 @@
       font-family: "Baumans", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 
       @include media-breakpoint-between(lg, xl) {
-        border-right: 2px solid $white !important;
+        border-bottom: 2px solid $white !important;
       }
 
       @include media-breakpoint-up(xl) {
