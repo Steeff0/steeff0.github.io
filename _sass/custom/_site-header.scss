@@ -14,7 +14,7 @@
     .navbar-brand {
       font-family: "Baumans", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 
-      @include media-breakpoint-between(lg, xl) {
+      @include media-breakpoint-between(md, xl) {
         border-bottom: 2px solid $white !important;
       }
 
