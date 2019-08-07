@@ -17,6 +17,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+social:
+  linkedin: "https://www.linkedin.com/in/stevengerritsen/"
+  youtube: "https://www.youtube.com/channel/UCuZHZ6ED5aWDLYFui2TVEew"
+  reddit: "https://www.reddit.com/user/Steeff0/"
+  steam: "https://steamcommunity.com/id/steeff0/"
+
 # Exclude from processing.
 exclude:
   - node_modules
