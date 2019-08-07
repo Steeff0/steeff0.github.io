@@ -11,7 +11,8 @@
   }
 
   pre {
-    margin: 0;
+    margin: 0 0 $spacer;
+    padding: map_get($spacers, 3)
   }
 
   .w {
