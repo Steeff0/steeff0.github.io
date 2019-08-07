@@ -1,9 +1,9 @@
-.site-header{
+.site-header {
   position: relative;
   z-index: 2;
-  box-shadow: 0 0.5rem 0.6em rgba(0,0,0,0.15);
+  box-shadow: 0 0.5rem 0.6em rgba(0, 0, 0, 0.15);
 
-  .container{
+  .container {
     @include media-breakpoint-up(xl) {
       max-width: calc(650px + 260px);
       left: calc(260px / 2 * -1);
@@ -11,6 +11,12 @@
     }
 
     .navbar-brand {
+      font-family: "Baumans", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+      @include media-breakpoint-between(lg, xl) {
+        border-right: 2px solid $white !important;
+      }
+
       @include media-breakpoint-up(xl) {
         max-width: 260px;
         border-right: 2px solid $white !important;
@@ -18,8 +24,8 @@
       }
     }
 
-    @include media-breakpoint-between(lg, xl) {
-      .navbar-nav .nav-item a:first-child {
+    .navbar-nav .nav-item a:first-child {
+      @include media-breakpoint-between(lg, xl) {
         padding-left: 0;
       }
     }

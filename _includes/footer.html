@@ -1,3 +1,38 @@
+<footer class="bg-dark p-5">
+    <div class="container">
+        <h2 class="sr-only">Useful links</h2>
+        <div class="row">
+            <div class="col-12">
+                <h3>Contact</h3>
+                <div class="mb-1">
+                    <a href="{{ site.github.owner_url }}">
+                                    <span class="fa-stack fa-1x github">
+                                        <i class="fas fa-circle fa-stack-2x text-white"
+                                           data-fa-transform="shrink-1"></i>
+                                        <i class="fab fa-github fa-stack-2x text-dark"></i>
+                                    </span>
+                        <span class="sr-only">Me on GitHub</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12">
+                <h3>More on this site</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.github.repository_url }}">View project on Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ 'feed.xml' | relative_url }}">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ 'sitemap.xml' | relative_url }}">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script src="{{ '/assets/javascript/bootstrap/jquery.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/javascript/bootstrap/popper.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/javascript/bootstrap/bootstrap.min.js' | relative_url }}"></script>
