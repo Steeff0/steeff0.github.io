@@ -3,3 +3,7 @@
 @import "custom/main-content";
 @import "custom/site-header";
 @import "custom/syntax-highlighting";
+
+body{
+  min-height: 100vh;
+}
