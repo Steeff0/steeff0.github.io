@@ -106,48 +106,61 @@ Ask the team to write down what they think is the superpower of the team.
 ### M&Ms retro
 Take a bag of M&M's and let one person take an M&M and the color decides what question he has to answer. When answered it's the next persons turn. 
 For example questions you can use one of these sets. A [Poster]({{ '/assets/documents/notes/retro-files/Retro_MenMs.png' | relative_url }}) is also available.
+
 ---
+
 * \[RED\]: A point of improvement for work/sprint/team
 * \[GREEN]: Positive about work/sprint/team
 * \[ORANGE]: An idea for work/sprint/team
 * \[YELLOW]: Learned during this sprint
 * \[BLUE]: Give a tip for a team member
 * \[BROWN]: Tell something about your private life
+
 ---
+
 * \[RED]: A moment you particularly liked
 * \[GREEN]: An awesome feature we delivered
 * \[BLUE]: Something we should probably do next
 * \[ORANGE]: A moment of stress
 * \[BROWN]: Pick another M&M
 * \[YELLOW]: What's your favorite book, movie or food?
+
 ---
+
 * \[RED]: Favorite summer activity
 * \[GREEN]: What are you passionate about
 * \[BLUE]: Favorite moment from last sprint
 * \[ORANGE]: Favorite place to travel
 * \[BROWN]: Name one life goal
 * \[YELLOW]: Title of the book you last read
+
 ---
+
 * \[RED\]: What was your best day of your life and why?
 * \[GREEN\]: What is the thing that you would love to do nearly every day.
 * \[BLUE\]: What is the best meal that you ever made for dinner?
 * \[ORANGE\]: If you could sit on a bench in a beautiful wood, who would you like sitting next to you and why?
 * \[BROWN\]: If you woke up tomorrow as an animal, what animal would you choose to be and why?
 * \[YELLOW\]: How would your dream vacation look like?
+
 ---
+
 * \[RED]: Something about yesterday
 * \[GREEN]: Things you do well
 * \[BLUE]: Something you learned last week
 * \[ORANGE]: Favorite school subject
 * \[BROWN]: Something about your childhood
 * \[YELLOW]: toiletries you could not live without
+
 ---
+
 * \[RED\]: With what historical person would you like to have dinner and why?
 * \[GREEN\]: Name one thing of your bucket list you think no one expects. 
 * \[BLUE\]: If you could choose to do anything for a day, what would it be?
 * \[ORANGE\]: If you could only eat one meal for the rest of your life, what would it be?
 * \[BROWN\]: Is what you’re doing now what you always wanted to do growing up?
 * \[YELLOW\]: What’s an ideal weekend for you?
+
 ---
 
 ### Guess my favorite song
