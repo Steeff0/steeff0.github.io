@@ -7,10 +7,17 @@
                 {%- if socials.size > 0 -%}
                     <h3>Contact</h3>
                     <p>You can contact me using one of the following media:</p>
-                    <nav class="nav flex-row justify-content-between">
+                    <nav class="nav flex-row">
                         {% for social in socials %}
                             {%- if social.url and social.class and social.title -%}
-                                <a href="{{ social.url }}" target="_blank" class="mx-2">
+                                {%- if forloop.first == true -%}
+                                    {% assign mxClass = "mr-3" -%}
+                                {%- elsif forloop.last == true -%}
+                                    {% assign mxClass = "ml-3" -%}
+                                {%- else -%}
+                                    {% assign mxClass = "mx-3" -%}
+                                {%- endif -%}}
+                                <a href="{{ social.url }}" target="_blank" class="{{ mxClass }}">
                                     <span class="{{ social.class }} fa-2x text-light"></span>
                                     <span class="sr-only">{{ social.title }}</span>
                                 </a>
