@@ -3,26 +3,26 @@
         <h2 class="sr-only">Useful links</h2>
         <div class="row">
             <div class="col-12 col-sm-6 mb-6">
-                {% assign socials = site.data.social-network %}
+                {% assign socials = site.data.social_network %}
                 {%- if socials.size > 0 -%}
                     <h3>Contact</h3>
                     <p>You can contact me using one of the following media:</p>
                     <nav class="nav flex-row">
-                        {% for social in socials %}
+                        {%- for social in socials -%}
                             {%- if social.url and social.class and social.title -%}
-                                {%- if forloop.first == true -%}
-                                    {% assign mxClass = "mr-3" -%}
-                                {%- elsif forloop.last == true -%}
-                                    {% assign mxClass = "ml-3" -%}
-                                {%- else -%}
-                                    {% assign mxClass = "mx-3" -%}
-                                {%- endif -%}}
-                                <a href="{{ social.url }}" target="_blank" class="{{ mxClass }}">
+<!--                                {%- if forloop.first == true -%}-->
+<!--                                    {%- assign mx_class = "mr-3" -%}-->
+<!--                                {%- elsif forloop.last == true -%}-->
+<!--                                    {%- assign mx_class = "ml-3" -%}-->
+<!--                                {%- else -%}-->
+                                    {%- assign mx_class = "mx-3" -%}
+<!--                                {%- endif -%}}-->
+                                <a href="{{ social.url }}" target="_blank" class="{{ mx_class }}">
                                     <span class="{{ social.class }} fa-2x text-light"></span>
                                     <span class="sr-only">{{ social.title }}</span>
                                 </a>
                             {%- endif -%}}
-                        {% endfor %}
+                        {%- endfor -%}
                     </nav>
                 {%- endif -%}
             </div>
