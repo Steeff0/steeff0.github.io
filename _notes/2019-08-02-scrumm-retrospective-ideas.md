@@ -107,7 +107,7 @@ Ask the team to write down what they think is the superpower of the team.
 Take a bag of M&M's and let one person take an M&M and the color decides what question he has to answer. When answered it's the next persons turn. 
 For example questions you can use one of these sets. A [Poster]({{ '/assets/documents/notes/retro-files/Retro_MenMs.png' | relative_url }}) is also available.
 
----
+* * *
 
 * \[RED\]: A point of improvement for work/sprint/team
 * \[GREEN]: Positive about work/sprint/team
@@ -116,7 +116,7 @@ For example questions you can use one of these sets. A [Poster]({{ '/assets/docu
 * \[BLUE]: Give a tip for a team member
 * \[BROWN]: Tell something about your private life
 
----
+* * *
 
 * \[RED]: A moment you particularly liked
 * \[GREEN]: An awesome feature we delivered
@@ -125,7 +125,7 @@ For example questions you can use one of these sets. A [Poster]({{ '/assets/docu
 * \[BROWN]: Pick another M&M
 * \[YELLOW]: What's your favorite book, movie or food?
 
----
+* * *
 
 * \[RED]: Favorite summer activity
 * \[GREEN]: What are you passionate about
@@ -134,7 +134,7 @@ For example questions you can use one of these sets. A [Poster]({{ '/assets/docu
 * \[BROWN]: Name one life goal
 * \[YELLOW]: Title of the book you last read
 
----
+* * *
 
 * \[RED\]: What was your best day of your life and why?
 * \[GREEN\]: What is the thing that you would love to do nearly every day.
@@ -143,7 +143,7 @@ For example questions you can use one of these sets. A [Poster]({{ '/assets/docu
 * \[BROWN\]: If you woke up tomorrow as an animal, what animal would you choose to be and why?
 * \[YELLOW\]: How would your dream vacation look like?
 
----
+* * *
 
 * \[RED]: Something about yesterday
 * \[GREEN]: Things you do well
@@ -152,7 +152,7 @@ For example questions you can use one of these sets. A [Poster]({{ '/assets/docu
 * \[BROWN]: Something about your childhood
 * \[YELLOW]: toiletries you could not live without
 
----
+* * *
 
 * \[RED\]: With what historical person would you like to have dinner and why?
 * \[GREEN\]: Name one thing of your bucket list you think no one expects. 
@@ -161,7 +161,7 @@ For example questions you can use one of these sets. A [Poster]({{ '/assets/docu
 * \[BROWN\]: Is what you’re doing now what you always wanted to do growing up?
 * \[YELLOW\]: What’s an ideal weekend for you?
 
----
+* * *
 
 ### Guess my favorite song
 http://www.funretrospectives.com/guess-my-favorite-song/
