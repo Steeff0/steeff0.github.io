@@ -42,7 +42,7 @@ defaults:
       path: "pages"
       type: "pages"
     values:
-      layout: "page-old"
+      layout: "page"
       permalink: /pages/:basename/
   -
     scope:
