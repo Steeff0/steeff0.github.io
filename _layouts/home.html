@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="container page-content">
+<div class="container home-content mt-4">
     {{ content }}
 
     {% assign all_posts = site.posts | concat: site.notes %}
@@ -11,22 +10,20 @@ layout: default
     {%- if sorted.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in sorted -%}
-      <li>
-        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-        <p>{{ post.excerpt | strip_html }}</p>
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
+        {%- for post in sorted -%}
+        <li>
+            {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+            <p>{{ post.excerpt | strip_html }}</p>
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
     </ul>
     {%- endif -%}
-  </div>
-
 </div>
