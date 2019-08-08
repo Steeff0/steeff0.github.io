@@ -15,7 +15,7 @@ This contains five Mario characters:
 * Bowser: Threats, 
 * Piranha plant: Setbacks.
 
-You can use this [Poster](retro-files/Retro_Super_Mario.pdf) in Dutch.
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Super_Mario.pdf | relative_url }}) in Dutch.
 
 ### Team Journey Train
 This contains three categories: 
@@ -23,7 +23,7 @@ This contains three categories:
 * Good work: Continue doing, 
 * Impediments/Blockers.
 
-You can use this [Poster](retro-files/Retro_Team_Journey_Train.png) in Dutch.
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Team_Journey_Train.png | relative_url }}) in Dutch.
 
 ### A-team
 This contains the four members of The A-team:
@@ -32,7 +32,7 @@ This contains the four members of The A-team:
 * B.A.: Group transportation (Teamwork),
 * Hannibal: Future plans (Goals and Strategy).
 
-You can use this [Poster](retro-files/Retro_Ateam.pdf) in Dutch.
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Ateam.pdf | relative_url }}) in Dutch.
 
 ### Pizza retro
 This is a pizza containing 5 slices: 
@@ -42,7 +42,7 @@ This is a pizza containing 5 slices:
 * Stop, 
 * Continue.
 
-You can use this [Poster](retro-files/Retro_Pizza.pdf) in Dutch.
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Pizza.pdf | relative_url }}) in Dutch.
 
 ### Sea star
 Like every sea star this retro has five categories: 
@@ -52,7 +52,7 @@ Like every sea star this retro has five categories:
 * Stop doing,  
 * Keep doing.
 
-You can use this [Poster](retro-files/Retro_Sea_Star.png) in Dutch.
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Sea_Star.png | relative_url }}) in Dutch.
 
 ### Race car
 This contains four categories: 
@@ -61,7 +61,7 @@ This contains four categories:
 * Bridge (What helps us in our work), 
 * Abyss (What dangers are ahead).
 
-You can use this [Poster](retro-files/Retro_Race_Car.jpg).
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Race_Car.jpg | relative_url }}).
 
 ### Sail boat
 This Sail boat consists of:
@@ -70,7 +70,7 @@ This Sail boat consists of:
 * Prosperity & Windfalls,
 * Adversity & Setbacks.
 
-You can use this [Poster](retro-files/Retro_Sail_boat.png) in Dutch.
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Sail_boat.png | relative_url }}) in Dutch.
 
 ### Superhero retro
 #### Part 1: What is your superpower
@@ -83,7 +83,7 @@ What was:
 * [Learned] (doctor)Strange
 * [Longed for] (didn't you) Dare(devil)
 
-You can use this [Poster](retro-files/Retro_Superhero.pdf).
+You can use this [Poster]({{ /assets/documents/notes/retro-files/Retro_Superhero.pdf | relative_url }}).
 
 #### Part 3: Team Superpowers
 Ask the team to write down what they think is the superpower of the team.
@@ -105,7 +105,50 @@ Ask the team to write down what they think is the superpower of the team.
 ## Personal
 ### M&Ms retro
 Take a bag of M&M's and let one person take an M&M and the color decides what question he has to answer. When answered it's the next persons turn. 
-For example questions look: [M&M questions](retro-m-m-questions.md)
+For example questions you can use one of these sets. A [Poster]({{ /assets/documents/notes/retro-files/Retro_MenMs.png | relative_url }}) is also available.
+---
+* [RED]: A point of improvement for work/sprint/team
+* [GREEN]: Positive about work/sprint/team
+* [ORANGE]: An idea for work/sprint/team
+* [YELLOW]: Learned during this sprint
+* [BLUE]: Give a tip for a team member
+* [BROWN]: Tell something about your private life
+---
+* [RED]: A moment you particularly liked
+* [GREEN]: An awesome feature we delivered
+* [BLUE]: Something we should probably do next
+* [ORANGE]: A moment of stress
+* [BROWN]: Pick another M&M
+* [YELLOW]: What's your favorite book, movie or food?
+---
+* [RED]: Favorite summer activity
+* [GREEN]: What are you passionate about
+* [BLUE]: Favorite moment from last sprint
+* [ORANGE]: Favorite place to travel
+* [BROWN]: Name one life goal
+* [YELLOW]: Title of the book you last read
+---
+* [RED]: What was your best day of your life and why?
+* [GREEN]: What is the thing that you would love to do nearly every day.
+* [BLUE]: What is the best meal that you ever made for dinner?
+* [ORANGE]: If you could sit on a bench in a beautiful wood, who would you like sitting next to you and why?
+* [BROWN]: If you woke up tomorrow as an animal, what animal would you choose to be and why?
+* [YELLOW]: How would your dream vacation look like?
+---
+* [RED]: Something about yesterday
+* [GREEN]: Things you do well
+* [BLUE]: Something you learned last week
+* [ORANGE]: Favorite school subject
+* [BROWN]: Something about your childhood
+* [YELLOW]: toiletries you could not live without
+---
+* [RED]: With what historical person would you like to have dinner and why?
+* [GREEN]: Name one thing of your bucket list you think no one expects. 
+* [BLUE]: If you could choose to do anything for a day, what would it be?
+* [ORANGE]: If you could only eat one meal for the rest of your life, what would it be?
+* [BROWN]: Is what you’re doing now what you always wanted to do growing up?
+* [YELLOW]: What’s an ideal weekend for you?
+---
 
 ### Guess my favorite song
 http://www.funretrospectives.com/guess-my-favorite-song/
@@ -116,7 +159,7 @@ http://www.funretrospectives.com/guess-my-favorite-song/
 1. Optionally, the facilitator should find the song (spotify or similar) and play it for the group.
 
 ### Retro Questions
-For this retrospective, prepare an envelope, box or bag with different questions for the team. We have [example questions](retro-files/Retro_Questions.pdf) in Dutch.
+For this retrospective, prepare an envelope, box or bag with different questions for the team. We have [example questions]({{ /assets/documents/notes/retro-files/Retro_Questions.pdf | relative_url }}) in Dutch.
 
 Let everyone sit in a circle and give the envelope with questions to the first person. He has to pick a question blindly and answer it. Then give the envelope to the next person to do the same. You can discus the answers if people are interested in a Why or What. Keep going round till everyone has answered a question a couple of times, or the time is up.
 
