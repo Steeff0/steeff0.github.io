@@ -49,7 +49,7 @@ defaults:
       path: ""
       type: "notes"
     values:
-      layout: "post-old"
+      layout: "post"
       permalink: /notes/:slug/
       promoted: false
       discription: ""
@@ -59,7 +59,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post-old"
+      layout: "post"
       permalink: /articles/:year/:slug/
       promoted: false
       discription: ""
