@@ -8,7 +8,8 @@ layout: default
   <div class="container page-content">
     {{ content }}
 
-    {% assign sorted = (site.posts | concat: site.notes | sort: 'date') | reverse %}
+    {% assign all_posts = site.posts | concat: site.notes %}
+    {% assign sorted = all_posts | sort: 'date' | reverse %}
     {%- if sorted.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -22,8 +23,7 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-        <p>{{ post.excerpt | remove_first: "
-        <p>" | remove "</p>" }}</p>
+        <p>{{ post.excerpt | strip_html }}</p>
         {%- endif -%}
       </li>
       {%- endfor -%}
