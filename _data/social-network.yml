@@ -1,0 +1,12 @@
+- title: GitHub
+  url: "{{ site.github.owner_url }}"
+  class: "fab fa-github-square"
+- title: Linkedin
+  url: "https://www.linkedin.com/in/stevengerritsen/"
+  class: "fab fa-linkedin"
+- title: Youtube
+  url: "https://www.youtube.com/channel/UCuZHZ6ED5aWDLYFui2TVEew"
+  class: "fab fa-youtube-square"
+- title: Steam
+  url: "https://steamcommunity.com/id/steeff0/"
+  class: "fab fa-steam-square"

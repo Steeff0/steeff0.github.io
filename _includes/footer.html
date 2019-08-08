@@ -1,41 +1,23 @@
-<footer class="footer bg-dark py-3 pt-md-5">
+<footer class="footer bg-dark mt-5 py-5">
     <div class="container">
         <h2 class="sr-only">Useful links</h2>
         <div class="row">
-            <div class="col-12 col-md-4 mb-3">
-                <h3>Contact</h3>
-                <nav class="nav flex-row justify-content-between">
-                    {%- if site.github.owner_url -%}
-                        <a href="{{ site.github.owner_url }}">
-                            <span class="fab fa-github-square fa-2x text-light"></span>
-                            <span class="sr-only">GitHub</span>
-                        </a>
-                    {%- endif -%}
-                    {%- if site.social.linkedin -%}
-                        <a href="{{ site.social.linkedin }}" target="_blank">
-                            <span class="fab fa-linkedin fa-2x text-light"></span>
-                            <span class="sr-only">Linkedin</span>
-                        </a>
-                    {%- endif -%}
-                    {%- if site.social.youtube -%}
-                        <a href="{{ site.social.youtube }}" target="_blank">
-                            <span class="fab fa-youtube-square fa-2x text-light"></span>
-                            <span class="sr-only">Youtube</span>
-                        </a>
-                    {%- endif -%}
-                    {%- if site.social.reddit -%}
-                    <a href="{{ site.social.reddit }}" target="_blank">
-                        <span class="fab fa-reddit-square fa-2x text-light"></span>
-                        <span class="sr-only">Reddit</span>
-                    </a>
-                    {%- endif -%}
-                    {%- if site.social.steam -%}
-                    <a href="{{ site.social.steam }}" target="_blank">
-                        <span class="fab fa-steam-square fa-2x text-light"></span>
-                        <span class="sr-only">Steam</span>
-                    </a>
-                    {%- endif -%}
-                </nav>
+            <div class="col-12 col-sm-6 mb-6">
+                {% assign socials = site.data.social-network %}
+                {%- if socials.size > 0 -%}
+                    <h3>Contact</h3>
+                    <p>You can contact me using one of the following media:</p>
+                    <nav class="nav flex-row justify-content-between">
+                        {% for social in socials %}
+                            {%- if social.url and social.class and social.title -%}
+                                <a href="{{ social.url }}" target="_blank" class="mx-2">
+                                    <span class="{{ social.class }} fa-2x text-light"></span>
+                                    <span class="sr-only">{{ social.title }}</span>
+                                </a>
+                            {%- endif -%}}
+                        {% endfor %}
+                    </nav>
+                {%- endif -%}
             </div>
             <div class="col-12 col-md-6 offset-md-2 mb-3">
                 <h3>About the site</h3>
