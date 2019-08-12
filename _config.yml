@@ -10,12 +10,16 @@ timezone: Europe/Amsterdam
 
 show_excerpts: true
 
-# Build settings
+# Conversion
 markdown: kramdown
 theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# Markdown Processors
+kramdown:
+  footnote_backlink     : ""
 
 # Exclude from processing.
 exclude:
