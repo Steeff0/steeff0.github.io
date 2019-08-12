@@ -56,10 +56,11 @@ $link-hover-color:                        lighten($link-color, 15%) !default;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-    sm: 550px,
-    md: 650px,
-    lg: 650px,
-    xl: 650px
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
 ) !default;
 
 
