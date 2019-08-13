@@ -17,4 +17,10 @@ blockquote {
     font-size: 2rem;
     font-style: normal;
   }
+
+  &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
 }
