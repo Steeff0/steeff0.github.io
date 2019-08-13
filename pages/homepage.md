@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: home-new
 title:  "Home"
-permalink: /homepage/
 sitemap: false
 ---
 

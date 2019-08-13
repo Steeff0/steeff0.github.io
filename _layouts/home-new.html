@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="container home-content pt-4">
+    {{ content }}
+
+    {%- assign carousel_limit = 5 -%}
+    {%- assign all_posts = site.posts | concat: site.notes -%}
+    {%- assign sorted = all_posts | sort: 'date' | reverse -%}
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    {%- if sorted.size > 0 -%}
+    <div id="home-card-carousel" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating" href="#home-card-carousel" data-slide="prev"><i
+                    class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#home-card-carousel" data-slide="next"><i
+                    class="fas fa-chevron-right"></i></a>
+        </div>
+        <!--/.Controls-->
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {%- for post in sorted limit:carousel_limit -%}
+                {%- if post.index == 1 -%}
+                    {%- assign class = "active" -%}
+                {%- else -%}
+                    {%- assign class = "" -%}
+                {%- endif -%}
+                <li data-target="#home-card-carousel" data-slide-to="{{ forloop.index0 }}" class="{{ class }}"></li>
+            {% endfor %}
+        </ol>
+        <!--/.Indicators-->
+
+        <div class="carousel-inner v-2" role="listbox">
+
+            {%- for post in sorted limit:carousel_limit -%}
+            <div class="carousel-item active">
+                <div class="col-12 col-md-4">
+                    <div class="card mb-2">
+                        {% if post.title != blank %}
+                        <div class="order-3 card-body">
+                            <h3 class="h5 card-title">{{ post.title }}</h3>
+                        </div>
+                        {% endif %}
+                        {% if post.date != blank %}
+                        <div class="order-1 card-body">
+                            <date>{{ post.date | date: site.date_format }}</date>
+                        </div>
+                        {% endif %}
+                        {% if card.image != blank %}
+                        <img class="order-2 card-img-top" src="{{ post.image }}" alt="" aria-hidden="true">
+                        {% endif %}
+                        <div class="order-12 card-body">
+                            {% if post.excerpt != blank %}
+                            <p class="card-text">{{ post.excerpt }}</p>
+                            {% endif %}
+                            <a href="{{ post.url }}" class="card-link">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}
+
+        </div>
+    </div>
+    {%- endif -%}
+</div>
