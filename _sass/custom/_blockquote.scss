@@ -2,15 +2,17 @@ blockquote {
   @extend .blockquote;
 
   &, .blockquote {
-    padding-left: 0.5rem;
+    padding-left: .5rem;
     border-left: $yellow 0.2rem solid;
     font-style: italic;
 
     &:before {
       position: relative;
+      float: left;
+      margin-right: .5rem;
       top: -0.6rem;
       content: '\201C';
-      color: darken($yellow, 20%);
+      color: $yellow;
       font-size: 2rem;
       font-style: normal;
     }
