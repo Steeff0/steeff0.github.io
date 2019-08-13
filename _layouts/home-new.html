@@ -22,7 +22,7 @@ layout: default
         <!-- Indicators -->
         <ol class="carousel-indicators">
             {%- for post in sorted limit:carousel_limit -%}
-                {%- if post.index == 1 -%}
+                {%- if forloop.index == 1 -%}
                     {%- assign class = "active" -%}
                 {%- else -%}
                     {%- assign class = "" -%}
