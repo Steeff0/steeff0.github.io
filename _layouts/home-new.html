@@ -28,7 +28,7 @@ layout: default
                     {%- assign class = "" -%}
                 {%- endif -%}
                 <li data-target="#home-card-carousel" data-slide-to="{{ forloop.index0 }}" class="{{ class }}"></li>
-            {% endfor %}
+            {%- endfor -%}
         </ol>
         <!--/.Indicators-->
 
@@ -66,3 +66,4 @@ layout: default
     </div>
     {%- endif -%}
 </div>
+<script src="{{ '/assets/javascript/custom/bootstrap-carousel.js' | relative_url }}"></script>
