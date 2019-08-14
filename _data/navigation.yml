@@ -1,5 +1,9 @@
 - title: Home
   url: /
   class: home
+- title: Articles
+  url: /articles/
+- title: Notes
+  url: /notes/
 - title: About
   url: /about/
