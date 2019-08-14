@@ -1,5 +1,5 @@
 ---
-title:  "Starting my website with Jekyll!"
+title:  "My website in Jekyll!"
 categories: development web
 promoted: true
 excerpt: Read about some of the struggles I faced setting up my Jekyll site and how I overcame them.
