@@ -5,25 +5,15 @@ layout: default
 <div class="container home-content pt-4">
     {{ content }}
 
-    {% assign all_posts = site.posts | concat: site.notes %}
-    {% assign sorted = all_posts | sort: 'date' | reverse %}
-    {%- if sorted.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-        {%- for post in sorted -%}
-        <li>
-            {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-            <p>{{ post.excerpt | strip_html }}</p>
-            {%- endif -%}
-        </li>
+    {% assign archive = site.posts | concat: site.notes %}
+    {% assign archive = all_posts | sort: 'date' | reverse %}
+    {%- if archive.size > 0 -%}
+    <div class="row">
+        {%- for post in archive -%}
+        <div class="col-12 col-md-4">
+            {%- include post-card.html post=post -%}
+        </div>
         {%- endfor -%}
-    </ul>
+    </div>
     {%- endif -%}
 </div>
