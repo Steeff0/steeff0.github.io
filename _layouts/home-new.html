@@ -49,7 +49,7 @@ layout: default
                         </div>
                         {% endif %}
                         {% if card.image != blank %}
-                        <img class="order-2 card-img-top" src="{{ post.image }}" alt="" aria-hidden="true">
+                        <img class="order-2 card-img-top" src="{{ post.image | relative_url }}" alt="" aria-hidden="true">
                         {% endif %}
                         <div class="order-12 card-body">
                             {% if post.excerpt != blank %}

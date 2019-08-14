@@ -57,7 +57,7 @@ defaults:
       permalink: /notes/:slug/
       promoted: false
       discription: ""
-      image: ""
+      image: "/assets/images/notes.jpg"
   -
     scope:
       path: ""
