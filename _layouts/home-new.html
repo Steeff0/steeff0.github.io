@@ -41,28 +41,8 @@ layout: default
                     {%- assign active_class = "" -%}
                 {%- endif -%}
                 <div class="carousel-item {{ active_class }}">
-                    <div class="col-12 col-md-4">
-                        <div class="card mb-2">
-                            {% if post.title != blank %}
-                            <div class="order-3 card-body p-1">
-                                <h3 class="h5 card-title m-0">{{ post.title }}</h3>
-                            </div>
-                            {% endif %}
-                            {% if post.date != blank %}
-                            <div class="card-date order-2 card-body text-right p-0">
-                                <date class="bg-primary py-1 px-3">{{ post.date | date: site.date_format }}</date>
-                            </div>
-                            {% endif %}
-                            {% if card.image != blank %}
-                            <img class="order-1 card-img-top" src="{{ post.image | relative_url }}" alt="" aria-hidden="true">
-                            {% endif %}
-                            <div class="order-12 card-body p-1">
-                                {% if post.excerpt != blank %}
-                                <p class="card-text">{{ post.excerpt }}</p>
-                                {% endif %}
-                                <a href="{{ post.url }}" class="card-link">Read more</a>
-                            </div>
-                        </div>
+                    <div class="col-12 col-md-4 d-flex flex-align-stretch">
+                        {%- include post-card.html post=post -%}
                     </div>
                 </div>
             {%- endfor -%}
