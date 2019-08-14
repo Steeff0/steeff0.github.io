@@ -13,6 +13,3 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
         next.children(':first-child').clone().appendTo($(this));
     }
 });
-$('.carousel').carousel({
-    interval: false
-});
