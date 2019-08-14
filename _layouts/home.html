@@ -6,7 +6,7 @@ layout: default
     {{ content }}
 
     {% assign archive = site.posts | concat: site.notes %}
-    {% assign archive = all_posts | sort: 'date' | reverse %}
+    {% assign archive = archive | sort: 'date' | reverse %}
     {%- if archive.size > 0 -%}
     <div class="row">
         {%- for post in archive -%}
