@@ -7,6 +7,7 @@ baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  steeff0
 timezone: Europe/Amsterdam
+google_analytics: "UA-10205619-2"
 
 show_excerpts: true
 
