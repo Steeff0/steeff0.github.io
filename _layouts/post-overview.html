@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+<div class="intro mb-3">
+    {{ content }}
+</div>
+
+{%- if page.archive.size > 0 -%}
+<div class="row">
+    {%- for post in page.archive -%}
+    <div class="col-12 col-md-4 d-flex flex-align-stretch">
+        {%- include post-card.html post=post -%}
+    </div>
+    {%- endfor -%}
+</div>
+{%- endif -%}
