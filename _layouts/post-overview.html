@@ -6,9 +6,10 @@ layout: page
     {{ content }}
 </div>
 
-{%- if site.categories["{{ page.category }}"].size > 0 -%}
+{%- assign archive = site.collections | where: "label", "{{ page.collection }}" | sort: 'date' | reverse -%}
+{%- if archive.size > 0 -%}
 <div class="row">
-    {%- for post in site.categories["{{ page.category }}"] -%}
+    {%- for post in archive -%}
     <div class="col-12 col-md-4 d-flex flex-align-stretch">
         {%- include post-card.html post=post -%}
     </div>
