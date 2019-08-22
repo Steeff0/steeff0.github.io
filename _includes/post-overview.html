@@ -1,12 +1,3 @@
----
-layout: page
----
-
-<div class="intro mb-3">
-    {{ content }}
-</div>
-
-{%- assign archive = site.collections | where: "label", "{{ page.collection }}" | sort: 'date' | reverse -%}
 {%- if archive.size > 0 -%}
 <div class="row">
     {%- for post in archive -%}
