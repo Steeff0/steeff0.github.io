@@ -24,7 +24,7 @@ This contains three categories:
 * Good work: Continue doing, 
 * Impediments/Blockers.
 
-You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Team_Journey_Train.png' | relative_url }}) in Dutch.
+You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Team_Journey_Train.pdf' | relative_url }}) in Dutch.
 
 ### A-team
 This contains the four members of The A-team:
@@ -53,7 +53,7 @@ Like every sea star this retro has five categories:
 * Stop doing,  
 * Keep doing.
 
-You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Sea_Star.png' | relative_url }}) in Dutch.
+You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Sea_Star.pdf' | relative_url }}) in Dutch.
 
 ### Race car
 This contains four categories: 
@@ -62,7 +62,7 @@ This contains four categories:
 * Bridge (What helps us in our work), 
 * Abyss (What dangers are ahead).
 
-You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Race_Car.jpg' | relative_url }}).
+You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Race_Car.pdf' | relative_url }}).
 
 ### Sail boat
 This Sail boat consists of:
@@ -71,7 +71,7 @@ This Sail boat consists of:
 * Prosperity & Windfalls,
 * Adversity & Setbacks.
 
-You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Sail_boat.png' | relative_url }}) in Dutch.
+You can use this [Poster]({{ '/assets/documents/notes/retro-files/Retro_Sail_Boat.pdf' | relative_url }}) in Dutch.
 
 ### Superhero retro
 #### Part 1: What is your superpower
@@ -106,7 +106,7 @@ Ask the team to write down what they think is the superpower of the team.
 ## Personal
 ### M&Ms retro
 Take a bag of M&M's and let one person take an M&M and the color decides what question he has to answer. When answered it's the next persons turn. 
-For example questions you can use one of these sets. A [Poster]({{ '/assets/documents/notes/retro-files/Retro_MenMs.png' | relative_url }}) is also available.
+For example questions you can use one of these sets. A [Poster]({{ '/assets/documents/notes/retro-files/Retro_MenMs.pdf' | relative_url }}) is also available.
 
 * * *
 
