@@ -88,11 +88,11 @@ _September 2007 - July 2008_
 _December 2007 - October 2008_
 
 ## Publications
-Nijboer, F., Van De Laar, B., Gerritsen, S., Nijholt, A., & Poel, M. (2015). **Usability of three electroencephalogram headsets for brain-computer interfaces: A within subject comparison**. Interacting with Computers, 27(5), 500–511. [https://doi.org/10.1093/iwc/iwv023]
+Nijboer, F., Van De Laar, B., Gerritsen, S., Nijholt, A., & Poel, M. (2015). **Usability of three electroencephalogram headsets for brain-computer interfaces: A within subject comparison**. Interacting with Computers, 27(5), 500–511. [https://doi.org/10.1093/iwc/iwv023](https://doi.org/10.1093/iwc/iwv023)
 
-van Delden, R., Gerritsen, S., Reidsma, D., & Heylen, D. (2017). **Distributed embodied team play, a distributed interactive pong playground**. In Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST (Vol. 178, pp. 124–135). Springer Verlag. [https://doi.org/10.1007/978-3-319-49616-0_12]
+van Delden, R., Gerritsen, S., Reidsma, D., & Heylen, D. (2017). **Distributed embodied team play, a distributed interactive pong playground**. In Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST (Vol. 178, pp. 124–135). Springer Verlag. [https://doi.org/10.1007/978-3-319-49616-0_12](https://doi.org/10.1007/978-3-319-49616-0_12)
 
-van Delden, R., Gerritsen, S., Heylen, D., & Reidsma, D. (2018). **Co-located augmented play-spaces: past, present, and perspectives**. Journal on Multimodal User Interfaces, 12(3), 225–255. [https://doi.org/10.1007/s12193-018-0269-z]
+van Delden, R., Gerritsen, S., Heylen, D., & Reidsma, D. (2018). **Co-located augmented play-spaces: past, present, and perspectives**. Journal on Multimodal User Interfaces, 12(3), 225–255. [https://doi.org/10.1007/s12193-018-0269-z](https://doi.org/10.1007/s12193-018-0269-z)
 
 [capgemini]: https://www.capgemini.com/
 [public-prosecution-service]: https://www.om.nl/algemeen/english/
