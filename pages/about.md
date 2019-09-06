@@ -35,4 +35,4 @@ Experience with the following techniques and tools
 * NodeJS, NPM, Gradle, Gulp, Webpack;
 * JavaScript, TypeScript, Angular 2+
 
-[capgemini][https://www.capgemini.com/]
+[capgemini]: https://www.capgemini.com/
