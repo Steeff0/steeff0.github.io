@@ -1,0 +1,21 @@
+// Two-column list for each breakpoint and up
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    ul.two-columns#{$infix}{
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+}
+
+// Add bootstrap 3 hidden utility
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-only($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    hidden#{$infix}{
+      display: none
+    }
+  }
+}
