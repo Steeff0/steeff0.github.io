@@ -8,22 +8,22 @@ Well, something about me. Let me think. My name is Steven Gerritsen and come fro
 ## Work experience
 Currently I work for [Capgemini][capgemini], active consulting, technology services and digital transformation. There I work for different clients helping them with their software development.
 
-**<span class="text-primary">Senior developer</span>** | [Kadaster][kadasternl]  
+**Senior developer** | [Kadaster][kadasternl]  
 *januari 2018 - Present*
 
-**<span class="text-primary">Software consultant</span>**| [Capgemini][capgemini]  
+**Software consultant**| [Capgemini][capgemini]  
 *december 2015 – Present*
 
-**<span class="text-primary">Lead developer</span>** | [Public Prosecution Service][public-prosecution-service]  
+**Lead developer** | [Public Prosecution Service][public-prosecution-service]  
 *october 2017 – december 2017*
 
-**<span class="text-primary">Senior developer</span>** | [Public Prosecution Service][public-prosecution-service]  
+**Senior developer** | [Public Prosecution Service][public-prosecution-service]  
 *october 2016 – september 2017*
 
-**<span class="text-primary">Backend developer</span>** | [Public Prosecution Service][public-prosecution-service]  
+**Backend developer** | [Public Prosecution Service][public-prosecution-service]  
 *january 2016 – september 2016*
 
-**<span class="text-primary">Front-end designer</span>** | [Mozard BV][mozard]  
+**Front-end designer** | [Mozard BV][mozard]  
 *february 2010 – october 2014*
 
 
