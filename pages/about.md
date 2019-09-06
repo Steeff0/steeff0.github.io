@@ -8,7 +8,7 @@ Well, something about me. Let me think. My name is Steven Gerritsen and come fro
 ## Work experience
 Currently I work for [Capgemini][capgemini], active consulting, technology services and digital transformation. There I work for different clients helping them with their software development.
 
-**Senior developer{: .text-primary} | [Kadaster][kadasternl]**  
+**Senior developer | [Kadaster][kadasternl]**  
 *januari 2018 - Present*
 
 **Software consultant | [Capgemini][capgemini]**
