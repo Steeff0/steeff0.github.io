@@ -8,15 +8,23 @@ Well, something about me. Let me think. My name is Steven Gerritsen and come fro
 ## Work experience
 Currently I work for [Capgemini][capgemini], active consulting, technology services and digital transformation. There I work for different clients helping them with their software development.
 
-**Senior developer | Kadaster**  
-*02-01-2018 - Till Date*
+**Senior developer | [Kadaster][kadasternl]**  
+*januari 2018 - Present*
 
-Kadaster (Land Registry and Mapping Agency) changed their strategy toward providing their services digitally. They offer their products via more online channels and want to improve their contact with the customer. The websites of the Kadaster has to make it possible to let the customer quickly and easily order their products. The DevOps-/Scrum team where Steven is part of, is responcible for developing and maintaining the webshop and the web portal platform (Liferay).
+**Software consultant | [Capgemini][capgemini]**
+*december 2015 – Present*
 
-In this team Steven is a Full Stack developer, who focuses on the development of new Liferay components with which the web redaction team can realize the different websites Kadaster owns. For this he mainly uses Java, Groovy, REST, Sass and Typescript.
-Besides this Steven worked on support the building and deploy process by automating this flow. He does this with tools like Jenkins, Docker, Maven, NPM.
+**Lead developer | [Public Prosecution Service][public-prosecution-service]**
+*october 2017 – december 2017*
 
-Partly thanks to Steven, Kadaster now can quickly react to the needs of the customer and improve the communication. The customer can now quick and easily order the wanted products
+**Senior developer | [Public Prosecution Service][public-prosecution-service]**
+*october 2016 – september 2017*
+
+**Backend developer | [Public Prosecution Service][public-prosecution-service]**
+*january 2016 – september 2016*
+
+**Front-end designer | [Mozard BV][mozard]**
+*february 2010 – october 2014*
 
 
 ## Skills & Techniques
@@ -78,3 +86,6 @@ van Delden, R., Gerritsen, S., Reidsma, D., & Heylen, D. (2017). Distributed emb
 van Delden, R., Gerritsen, S., Heylen, D., & Reidsma, D. (2018). Co-located augmented play-spaces: past, present, and perspectives. Journal on Multimodal User Interfaces, 12(3), 225–255. [https://doi.org/10.1007/s12193-018-0269-z]
 
 [capgemini]: https://www.capgemini.com/
+[public-prosecution-service]: https://www.om.nl/algemeen/english/
+[mozard]: https://www.mozard.nl
+[kadasternl]: https://www.kadaster.nl
