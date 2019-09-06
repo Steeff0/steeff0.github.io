@@ -53,6 +53,7 @@ Experience with the following techniques and tools
 * Netwerkinrichting (Certificaten / SSL / Redirects, etc).
 * NodeJS, NPM, Gradle, Gulp, Webpack;
 * JavaScript, TypeScript, Angular 2+
+{: style="  columns: 2; -webkit-columns: 2; -moz-columns: 2;" /}
 
 ## Education
 MSc, University of Twente, Human Media Interaction (2015),  
