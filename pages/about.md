@@ -9,23 +9,22 @@ Well, something about me. Let me think. My name is Steven Gerritsen and come fro
 Currently I work for [Capgemini][capgemini], active consulting, technology services and digital transformation. There I work for different clients helping them with their software development.
 
 **Senior developer** | [Kadaster][kadasternl]  
-*januari 2018 - Present*
+*January 2018 - Present*
 
 **Software consultant**| [Capgemini][capgemini]  
-*december 2015 – Present*
+*December 2015 – Present*
 
 **Lead developer** | [Public Prosecution Service][public-prosecution-service]  
-*october 2017 – december 2017*
+*October 2017 – december 2017*
 
 **Senior developer** | [Public Prosecution Service][public-prosecution-service]  
-*october 2016 – september 2017*
+*October 2016 – september 2017*
 
 **Backend developer** | [Public Prosecution Service][public-prosecution-service]  
-*january 2016 – september 2016*
+*January 2016 – september 2016*
 
 **Front-end designer** | [Mozard BV][mozard]  
-*february 2010 – october 2014*
-
+*February 2010 – october 2014*
 
 ## Skills & Techniques
 Steven has the following Skills:
@@ -55,36 +54,52 @@ Experience with the following techniques and tools
 * JavaScript, TypeScript, Angular 2+
 {: .two-columns-md}
 
-## Education
-MSc, **University of Twente**, Human Media Interaction (2015),  
-Graduation project: Effect of teamwork on Distributed Pervasive Playgrounds.
+## Certificates 
+**Archimate 2.0**  
+*October 2017 – Present*
 
-BSc, **Avans University of Applied Science**, Information Technology (2010),  
+**Togaf 9 Foundation**  
+*April 2017 – Present*
+
+**Professional Scrum Master Level I**  
+*April 2016 – Present*
+
+## Training 
+Liferay Fundamentals (dec 2017) 
+Front end Masterclass (dec 2015) 
+Dupal: Module developer (dec 2015) 
+Drupal: Theme developer (dec 2015) 
+
+## Education
+**Human Media Interaction** _(2015) MSc_ | University of Twente  
+Graduation project: Effect of teamwork on Distributed Pervasive Playgrounds
+
+**Information Technology** _(2010) BSc_ | Avans University of Applied Science  
 Minor: Usability and Accessibility in Application Development.
 
 ## Extracurricular Activities
-**Content manager BNCI Horizon 2020 | European project at the University of Twente**  
+**Content manager BNCI Horizon 2020** | European project at the University of Twente  
 _November 2014 – July 2015_
 
-**Member of the Program Committee of HMI & CreaTe | University of Twente**  
+**Member of the Program Committee of HMI & CreaTe** | University of Twente  
 _June 2011 - July 2013_
 
-**Experiment leader for Brain Computer Interaction research | University of Twente**  
+**Experiment leader for Brain Computer Interaction research** | University of Twente  
 _July 2011 - August 2011_
 
-**E-Learning Coach | Avans University of Applied Science**  
+**E-Learning Coach** | Avans University of Applied Science  
 _August 2009 - January 2010_
 
-**Secretary Faculty Participation Council | Avans University of Applied Science**  
+**Secretary Faculty Participation Council** | Avans University of Applied Science  
 _September 2009 - July 2010_
 
-**Member General Participation Council | Avans University of Applied Science**  
+**Member General Participation Council** | Avans University of Applied Science  
 _September 2007 - July 2010_
 
-**IT service manager | Avans University of Applied Science**  
+**IT service manager** | Avans University of Applied Science  
 _September 2007 - July 2008_
 
-**Freshmen week committee head | Avans University of Applied Science**  
+**Freshmen week committee head** | Avans University of Applied Science  
 _December 2007 - October 2008_
 
 ## Publications
