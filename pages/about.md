@@ -56,13 +56,13 @@ Experience with the following techniques and tools
 
 ## Certificates 
 **Archimate 2.0**  
-*October 2017 – Present*
+*October 2017*
 
 **Togaf 9 Foundation**  
-*April 2017 – Present*
+*April 2017*
 
 **Professional Scrum Master Level I**  
-*April 2016 – Present*
+*April 2016*
 
 ## Training 
 **Liferay Fundamentals**  
