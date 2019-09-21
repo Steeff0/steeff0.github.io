@@ -65,10 +65,18 @@ Experience with the following techniques and tools
 *April 2016 – Present*
 
 ## Training 
-Liferay Fundamentals (dec 2017) 
-Front end Masterclass (dec 2015) 
-Dupal: Module developer (dec 2015) 
-Drupal: Theme developer (dec 2015) 
+**Liferay Fundamentals**  
+_December 2017_
+
+**Front end Masterclass**  
+_December 2015_
+
+**Dupal: Module developer**  
+_December 2015_
+
+**Drupal: Theme developer**  
+_December 2015_
+
 
 ## Education
 **Human Media Interaction** _(2015) MSc_ | University of Twente  
