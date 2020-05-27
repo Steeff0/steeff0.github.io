@@ -48,7 +48,7 @@ test -f ~/.profile && . ~/.profile
 test -f ~/.bashrc && . ~/.bashrc
 ```
 
-#### .dotfiles (bashrc && .gitconfig)
+#### .dotfiles (.bashrc && .gitconfig)
 Setup these using the [.dotfiles project](https://github.com/Steeff0/.dotfiles){:target="_blank"}
 
 #### .npmrc
