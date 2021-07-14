@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 ---
 
-Well, something about me. Let me think. My name is Steven Gerritsen and come from the netherlands. During the day I am working as a software developer and in the evening I spend time with my fiance or play a computer game. Concerning Software, I am most comfortable in *Java* and *PHP*, and am mostly working in a web environment. As a web developer I mostly develop web services, web applications and do some frontend work. The work is mostly done as a *DevOps* capacity in a *Scrum* team. Besides developing software, I like to  
+Well, something about me. Let me think. My name is Steven Gerritsen and come from the netherlands. During the day I am working as a software developer and in the evening I spend time with my wife or play a computer game. Concerning Software, I am most comfortable in *Java* and *PHP*, and am mostly working in a web environment. As a web developer I mostly develop web services, web applications and do some frontend work. The work is mostly done as a *DevOps* capacity in a *Scrum* team. Besides developing software, I like to  
 
 ## Work experience
 Currently I work for [Capgemini][capgemini], active consulting, technology services and digital transformation. There I work for different clients helping them with their software development.
