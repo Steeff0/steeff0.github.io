@@ -20,8 +20,6 @@ You should install the following applications on something like `C:\tools\[appli
      * Unzip to `[install-location]\groovy\`	
      * Add  env var `GROOVY_HOME` with value `[install-location]\groovy\groovy-[version]`	
      * Add `%GROOVY_HOME%\bin` to your PATH env var
-* [NodeJS](https://nodejs.org/download/release/v10.16.0/){:target="_blank"}
-    * to install Gulp globally: `npm install -g gulp`
 * [Python 2.7.x](https://www.python.org/downloads/){:target="_blank"}
     * Add env var `PYTHON` with value `[install-location]\Python27`   
 * [Git bash](https://git-scm.com/download/win){:target="_blank"}
@@ -31,10 +29,8 @@ You should install the following applications on something like `C:\tools\[appli
     * Add env var `M2_HOME` with value `[install-location]\maven\apache-maven-[version]\`(path to Maven Directory)
     * Add `%M2_HOME%\bin` to PATH env var
 * [Docker](https://store.docker.com/editions/community/docker-ce-desktop-windows){:target="_blank"}
-    * If docker does this nog for you during it's install you have to 
-    [Turn on Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v){:target="_blank"} to enable virtualisation on windows 10 (The docker-desktop installation can also do this for you).
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/){:target="_blank"}
-* [SqlDeveloper](https://www.oracle.com/tools/downloads/sqldev-downloads.html){:target="_blank"} choose the JDK included version.
+* [PGAdmin](https://www.pgadmin.org/download/){:target="_blank"}
 * [Jetbrains-toolbox](https://www.jetbrains.com/toolbox/download/download-thanks.html){:target="_blank"} (optional, use this tool to install IntelliJ)
 * [Notepad++](https://notepad-plus-plus.org/download/){:target="_blank"}
 
