@@ -22,7 +22,7 @@ When I wanted to start my Jekyll project, I found out, I had to install a lot of
 
 > No unnecessary tools needed for building Jekyll, when you use Docker!
 
-Currently I slowly build my Jekyll website, by adding [Bootstrap 4][bootstrap], [Font Awesome][fontawesome], custom templates and change the design so that it will turn, form a plain Jekyll site, to my own website created with Jekyll. If you have any questions about how I solved different problems, you can always contact me.
+Currently I slowly build my Jekyll website, by adding [Bootstrap 4][bootstrap], [Font Awesome][fontawesome], custom templates and change the design so that it will turn, form a plain Jekyll site, to my own website created with Jekyll.
 
 [jekyll]: https://jekyllrb.com/
 [slack]: https://slack.com/
