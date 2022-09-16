@@ -19,7 +19,7 @@
   "homepage": "https://steeff0.github.io",
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.1",
     "@fortawesome/fontawesome-free": "^5.15.3"
   }
 }
