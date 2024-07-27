@@ -7,8 +7,13 @@ baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  steeff0
 timezone: Europe/Amsterdam
-google_analytics: "UA-10205619-2"
 kofi_page: "U7U647LPC"
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+# Note: the main Just the Docs site does *not* use Google Analytics.
+ga_tracking: G-DXMNQ2G62E
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 show_excerpts: true
 
@@ -18,6 +23,7 @@ theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Markdown Processors
 kramdown:
